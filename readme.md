@@ -1,4 +1,4 @@
-# Nico Thumb
+# NicoThumb
 
 Yahoo!のYQLを使ってニコ動の動画情報を取得して表示します。
 
@@ -29,7 +29,7 @@ $("#video_info").nicothumb({
 
 ### 高度？な使い方
 ```javascript
-$(".info").s_animation({
+$(".info").nicothumb({
 	video_id: "sm9",
 	insert: false,
 	callback: function (video_info){
@@ -40,7 +40,7 @@ $(".info").s_animation({
 ```
 
 ```javascript
-$(".info").s_animation({
+$(".info").nicothumb({
 	video_id: "sm9",
 	template: "<h1>{title}</h1><img src='{thumbnail_url}' alt='サムネ'>"
 });
