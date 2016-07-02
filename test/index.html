@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Nico thumbinfo</title>
+	<!-- Script -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="../jquery.xdomainajax.js"></script>
+	<script type="text/javascript" src="../jquery.nicothumb.js"></script>
+	<script>
+		$(function() {
+			$("#video").nicothumb({
+				video_id: "sm1",
+				insert: true
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="video"></div>
+</body>
+</html>
